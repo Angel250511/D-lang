@@ -2,6 +2,13 @@
 A new way to program.
 
 
+How to install?
+
+irm https://raw.githubusercontent.com/Angel25051/d-lang/main/installers/installar.ps1 | iex
+
+
+
+
 # Official D Language Documentation
 
 **Titan Engine v1.0 Release — Declaration of Syntactic Sovereignty**
