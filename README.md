@@ -180,5 +180,23 @@ __attribute__((fastcall))
 
 ---
 
+
+## Full C Library Support
+
+D++lang is fully compatible with all C libraries — standard or external — as long as they are correctly installed on the system and available at compile time.
+
+You may include any C header and call its functions directly:
+
+```d++
+#include <math.h>
+#include <raylib.h>
+
+def int main() {
+    println(f"sin(0.5) = {sin(0.5)}");
+    InitWindow(800, 600, "Raylib in D++lang");
+    CloseWindow();
+    return 0;
+}
+
 **This is D. No copying, no inheritance. Everything that compiles in D is from D.**
 **D is a sovereign language. It contains everything.**
