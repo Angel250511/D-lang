@@ -200,3 +200,40 @@ def int main() {
 
 **This is D. No copying, no inheritance. Everything that compiles in D is from D.**
 **D is a sovereign language. It contains everything.**
+
+
+
+```
+
+# D++lang Standard Library
+
+The D++lang Standard Library is designed to be a collection of essential modules similar to Python's standard library. Our goal is to encourage rapid development and widespread adoption by making it easy for developers to integrate with external libraries and build robust applications.
+
+## Key Modules
+
+- **math** — Provides mathematical functions such as `sqrt()`, `sin()`, and `cos()`.
+- **os** — Offers functions for interacting with the operating system (file I/O, process management, etc.).
+- **io** — Contains functions and utilities for input/output operations.
+- **string** — Utilities for string manipulation and formatting.
+- **time** — Functions to work with dates, times, and timing.
+- **random** — Tools for generating random numbers and handling randomness.
+
+## Design Principles
+
+- **Legibility & Modern Syntax:** D++lang boasts a clear, modern syntax with keywords like `type`, `def`, and explicit type declarations that keep code both readable and closely aligned with machine-level operations.
+- **Explicit Type Declarations:** While ensuring a syntax that enhances readability, all types are declared explicitly (e.g., `int`) to maintain precision and performance.
+- **C Compatibility:** The language is fully compatible with C libraries. This means you can supercharge your applications with an extensive range of pre-existing libraries.
+- **Rapid Library Integration:** The standard library not only eases the development of in-house modules but also paves the way to quickly “wrap” or integrate external libraries, promoting a fast and efficient development cycle.
+- **Modular Approach:** A modular design ensures that each component functions independently while integrating smoothly with the rest of the ecosystem.
+
+## How To Contribute
+
+We want D++lang to become not only a powerful language but also one with a strong, vibrant community. Here’s how you can help:
+
+- **Submit New Modules:** Contribute modules that fill gaps or extend current functionality.
+- **Enhance Existing Modules:** Improve documentation, add test cases, or optimize performance.
+- **Share Your Projects:** Let us know how you’re using the standard library in your projects.
+
+With a community-driven effort, D++lang aims to surpass languages like C by blending simplicity, control, and rapid integration of libraries—even if its user base starts small.
+
+Happy coding with D++lang!
