@@ -4,10 +4,19 @@ A new way to program.
 
 How to install?
 
-irm https://raw.githubusercontent.com/Angel25051/d-lang/main/installers/installar.ps1 | iex
+1. Download the files from Releases:
 
+- d.exe
+- install_dpp.ps1
 
+2. Open PowerShell **as administrator** and navigate to the folder where you downloaded the files.
 
+3. Run the installation script:
+
+```powershell
+.\install_dpp.ps1
+
+```
 
 # Official D Language Documentation
 
